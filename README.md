@@ -1,9 +1,9 @@
 Implementation Task:
-Create your own custom exception class and use it in a small program.
-Write Google Test unit tests to verify that:
-Your exception is thrown where expected.
-Your exception is caught correctly.
-No unexpected exceptions occur.
+- Create your own custom exception class and use it in a small program.
+- Write Google Test unit tests to verify that:
+- Your exception is thrown where expected.
+- Your exception is caught correctly.
+- No unexpected exceptions occur.
 
 Build and Run
 ```
