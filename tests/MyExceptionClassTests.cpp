@@ -10,3 +10,9 @@ TEST(MyExceptionTest, InputOfDouble) {
     EXPECT_NE(myclass2.get_number(), 60);
     EXPECT_EQ(myclass2.get_number(), 0);
 }
+
+TEST(MyExceptionTest, CatchingThrow) {
+    MyClass myclass(20);
+    EXPECT_THROW(myclass.input(60), MyExceptionClass);
+    EXPECT_NO_THROW(myclass.input(10));
+}
